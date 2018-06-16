@@ -1,39 +1,4 @@
-<script src="index.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-
-<div class="phone">
-
-	<div class="app">
-
-			<div class="header">
-
-				<span class="settings"></span>
-
-				<img src="http://web.arjentienkamp.com/codepen/tinder/logo.jpg"/>
-
-				<span class="chat"></span>
-
-			</div>
-
-			<div class="content">
-
-			</div>	
-
-			<div class="footer">
-				<div id="swipe_dislike" class="rate"></div>
-
-				<div class="info"></div>
-
-				<div id="swipe_like" class="rate"></div>
-			</div>
-
-	</div>	
-
-</div>
-
-
-<script>
-	$(document).ready(function(event) {
+$(document).ready(function(event) {
 	
 	$("div#swipe_like").on( "click", function() {
 		swipeLike();
@@ -100,5 +65,3 @@
 	}
 
 });
-
-</script>
